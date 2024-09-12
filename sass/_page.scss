@@ -1,0 +1,75 @@
+.merriweather {
+  font-family: "Merriweather", sans-serif;
+}
+.Redressed {
+  font-family: "Redressed", sans-serif;
+}
+
+.mynavbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "Merriweather", "serif";
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.55);
+}
+.btn-order {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+  &:hover,
+  &:active {
+    color: #fff;
+    background-color: var(--bs-teal);
+  }
+}
+.mynavbar .nav-link {
+  border-bottom: 2px solid transparent;
+  transition: padding-bottom 0.5s ease-in-out, border-bottom 0.3s ease;
+}
+.mynavbar .nav-link:hover {
+  border-bottom-color: var(--bs-teal);
+  padding-bottom: 20px;
+}
+.bannere {
+  height: 800px;
+  background-image: url(../assets/img/bannere.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.55);
+  &_desc {
+    font-size: 49px;
+  }
+}
+.btn-hover:hover {
+  color: #fff;
+}
+.read {
+  color: #fff;
+}
+.cc-menu {
+  height: 1500px;
+  background-image: url(../assets/img/platter-2009590_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  .nav-link {
+    color: #fff;
+  }
+  .padding {
+    padding: 0.5rem 0;
+  }
+}
+.order {
+  height: 500px;
+  background-image: url(../assets/img/bannere.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.footer {
+  .nav-link {
+    color: #000;
+  }
+}
